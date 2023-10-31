@@ -16,12 +16,52 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/messier31/Downloads/cs-study/c#/web-app-1
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Account/LoginPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpblBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Account/LoginSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpblN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Account/StronglyTypedLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9TdHJvbmdseVR5cGVkTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Account/UserDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Vc2VyRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Account/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Vc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Account/WeaklyTypedLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9XZWFrbHlUeXBlZExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Customer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Customer/Method1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvTWV0aG9kMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Customer/Method2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvTWV0aG9kMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Customer/QueryTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvUXVlcnlUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Customer/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/messier31/Downloads/cs-study/c\#/web-app-1/Views/Home/Index.cshtml]

@@ -1,0 +1,16 @@
+
+@model IList<web_app_1.Models.LoginViewModel>
+@{
+}
+
+<h1>User list</h1>
+
+<div>
+    <ul>
+        @foreach(var item in Model)
+        {
+            <li>@item.Username : @item.Password</li>
+        }
+    </ul>
+    
+</div>

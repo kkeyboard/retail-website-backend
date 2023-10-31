@@ -1,0 +1,19 @@
+@{
+}
+
+<h1>Welcome</h1>
+
+<div>
+    @using(Html.BeginForm("LoginPost", "Account", FormMethod.Post))
+    {
+        <div>
+            Username:@Html.TextBox("Username")
+        </div>
+        <div>
+            Passowrd:@Html.TextBox("Password")
+        </div>
+        <div>
+            <input type="submit" value="Login" />
+        </div>
+    }
+</div>

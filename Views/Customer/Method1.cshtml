@@ -1,14 +1,12 @@
-
-@model web_app_1.Views.Customer.Details
+@model web_app_1.Views.Customer.Method1
 @{
-    Layout = "_Layout";
 }
 
-<h1>Details</h1>
+<h1>Method1</h1>
 
 <div>
-    <h3>@ViewData["Message"]</h3>
-    <p>There are @ViewData["CustomerCount"] customers added into the list.</p>
+    <h3>@TempData["Message"]</h3>
+    <p>There are @TempData["CustomerCount"] customers added into the list.</p>
 
     <table>
         <thead>
@@ -19,7 +17,7 @@
             </tr>
         </thead>
         <tbody>
-            @foreach(var item in ViewData["CustomerList"] as List<Customer>)
+            @foreach(var item in TempData["CustomerList"] as List<Customer>)
             {
                 <tr>
                     <td>@item.Id</td>
@@ -29,5 +27,11 @@
             }
         </tbody>
     </table>
+
+    @{
+        TempData.Keep("Message");
+    }
+
+    <a asp-controller="Customer" asp-action="Method2">Go to Method2</a>
     
 </div>

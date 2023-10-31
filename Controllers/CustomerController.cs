@@ -27,7 +27,59 @@ public class CustomerController : Controller
 
     public IActionResult Details()
     {
+        ViewData["Message"] = "Customer Management System";
+        ViewData["CustomerCount"] = customers.Count();
+        ViewData["CustomerList"] = customers;
         return View();
+    }
+
+    public IActionResult Method1()
+    {
+        TempData["Message"] = "Customer Management System";
+        TempData["CustomerCount"] = customers.Count();
+        TempData["CustomerList"] = customers;
+        return View();
+    }
+
+    public IActionResult Method2()
+    {
+        if(TempData["Message"] == null)
+        {
+            return RedirectToAction("Index");
+        }
+            
+        TempData["Message"] = TempData["Message"].ToString();
+        return View();
+    }
+
+    public IActionResult Login()
+    {
+        HttpContext.Session.SetString("username", "J");
+        return RedirectToAction("Success");
+    }
+
+    public IActionResult Success()
+    {
+        ViewBag.Username = HttpContext.Session.GetString("username");
+        return View();
+    }
+
+    public IActionResult Logout()
+    {
+        HttpContext.Session.Remove("username");
+        return RedirectToAction("Index");
+    }
+
+    
+    public IActionResult QueryTest()
+    {
+        string? name = "King Kong";
+        if(!String.IsNullOrEmpty(HttpContext.Request.Query["name"]))
+        {
+            name = HttpContext.Request.Query["name"];
+        }
+        ViewBag.Name = name;
+        return View();    
     }
 
     // [Route("~/")] // overloads conventional routing
