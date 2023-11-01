@@ -71,6 +71,21 @@ namespace web_app_1.Controllers
             return View(users);
         }
 
+        public IActionResult GetAccount()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult PostAccount(Account account)
+        {
+            if(ModelState.IsValid)
+            {
+                return View("Success");
+            }
+            return RedirectToAction("GetAccount");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

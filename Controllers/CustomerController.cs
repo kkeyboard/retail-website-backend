@@ -13,8 +13,8 @@ public class CustomerController : Controller
 {
     public static List<Customer> customers = new List<Customer>()
     {
-        new Customer() {Id = 101, Name = "King", Amount = 12000},
-        new Customer() {Id = 101, Name = "Queen", Amount = 20000},
+        new Customer() {CustomerId = 101, CustomerName = "King",CustomerAmount = 12000},
+        new Customer() {CustomerId = 101, CustomerName = "Queen", CustomerAmount = 20000},
     };
 
     public IActionResult Index()

@@ -20,9 +20,9 @@
             @foreach(var item in TempData["CustomerList"] as List<Customer>)
             {
                 <tr>
-                    <td>@item.Id</td>
-                    <td>@item.Name</td>
-                    <td>@item.Amount</td>
+                    <td>@item.CustomerId</td>
+                    <td>@item.CustomerName</td>
+                    <td>@item.CustomerAmount</td>
                 </tr>
             }
         </tbody>
